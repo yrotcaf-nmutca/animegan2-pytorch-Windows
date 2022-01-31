@@ -58,7 +58,7 @@ if __name__ == '__main__':
     parser.add_argument(
         '--checkpoint',
         type=str,
-        default='./pytorch_generator_Paprika.pt',
+        default='./face_paint_512_v2_0.pt',
     )
     parser.add_argument(
         '--input_dir', 

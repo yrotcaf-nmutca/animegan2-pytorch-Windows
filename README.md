@@ -15,7 +15,8 @@ conda activate AnimeGANv2
 ```
 - Setup conda environment for nvidia non-30 series GPU:
 ```
-conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
+conda install -y pytorch==1.9.0 torchvision==0.10.0 torchaudio==0.9.0 cudatoolkit=10.2 -c pytorch
+conda install -y -c conda-forge dlib=19.4
 ```
 - Setup conda environment for nvidia 30 series GPU:
 ```
